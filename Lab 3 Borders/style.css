@@ -1,0 +1,18 @@
+/*To create a border use border-style
+There many type of border-style, explore more on your IDE.
+Padding create some spaces between the border and text, preventing it from touching the border. 
+You can also change the style of specific region in a border by specifying top, bottom, left and more.*/
+h1{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+}
+p{
+    border-style:outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
