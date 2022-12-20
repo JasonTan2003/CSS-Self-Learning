@@ -1,0 +1,17 @@
+/*For more fonts go to fonts.google.com*/
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+    font-family: "press Start 2P", "consolas", sans-serif
+}
+p{
+    color:#00FF73;
+    font-family: "consolas", sans-serif;
+    /*It is good to put 2 just in case the first font does not work it will change to the second font*/
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline; 
+    font-size: 18px;
+}
