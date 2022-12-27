@@ -1,0 +1,29 @@
+/*Position
+--There are 5 main positon in CSS which are static, relative, absolute, fixed and sticky.
+--The default position of all element is in static on default.
+--Relative is a position that allows us to make changes to the border or elements.
+--Absolute position will always find a parent that is position non statically, if there's none then viewport will be the parent. 
+--Fixed is going to stay at the position where we set.
+--Sticky position is special when we scroll pass the elements it will stick to the viewport.
+*/
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(95, 202, 244);
+
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+
+    position: absolute;
+
+    top: 100px;
+    left: 100px;
+}
