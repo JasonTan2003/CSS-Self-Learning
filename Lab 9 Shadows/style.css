@@ -1,0 +1,10 @@
+/*There are two types of shadows which are text and box shadows*/
+/*Text and box shadows are followed by 3 pixels, the first px stands for x-axis, second px for y-axis and so on. 
+--We can also add a colour to the shadow and seperate each individual shadow with comma.
+--The difference between text and box shadows is box is the shadows surrounding our entire element.*/
+h1{
+    text-shadow: 0px 0px 5px grey, 0px -5px 5px purple;
+}
+h1:hover{
+    box-shadow: 3px 3px 3px black;
+}
