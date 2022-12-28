@@ -1,0 +1,34 @@
+a:link{
+    color:lawngreen;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:darkorange;
+}
+a:active{
+    color:yellow;
+}
+button:hover{
+    background-color:lightgrey;
+}
+button:active{
+    background-color:white;
+}
+/*li:nth-child(1){
+    background-color: yellow;
+}
+*/
+li:nth-child(even){
+    background-color: skyblue;
+}
+li:nth-child(odd){
+    background-color: powderblue;
+}
+/*We can also pass in a Nth term is the parameter
+For example:
+li:nth-child(5n+2){
+    background-color: skyblue;
+}
+*/
